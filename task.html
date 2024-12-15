@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/bootstrap-5.3.3-dist/css/bootstrap.css">
+    <title>Document</title>
+    <style>
+        header{
+            background-repeat: no-repeat;
+            background: linear-gradient(to left ,#247774b9 ,#247774b9) ,url(lab/img/mountains.jpg);
+        }
+        header .container{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            
+
+        }
+        .text{
+            margin-top: 10%;
+        }
+        .text p{
+            color: white;
+        }
+        .text button{
+            margin-left: 30%;
+        }
+        .h1{
+            color: white;
+        }
+        .image img{
+            width:60%;
+            height:100%;
+            margin-left: 300px;
+        }
+        h1{
+            text-align: center;
+            color: #247774b9 ;
+        }
+        .p1{
+            text-align: center;
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+      <div class="container">
+        <div class="text">
+            <p class="h1">Do What You Dream Of</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet adipisci repudiandae accusamus, blanditiis in distinctio esse expedita magnam cupiditate, odit perferendis corporis hic facere nesciunt quas quo quos et cumque!</p>
+            <br>
+            <button class="btn btn-light">Read More</button>
+        </div>
+        <div class="image">
+            <img src="lab/img/book.png">
+        </div>
+      </div>
+    </header>
+    <br>
+    <br>
+    <br>
+  <div class="row" style="justify-content: space-evenly;text-align: center;"> 
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title" style="color: #247774b9;">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;text-align: center; background-color: #247774b9; color: white;">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;text-align: center;">
+        <div class="card-body">
+          <h5 class="card-title" style="color: #247774b9;">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem; text-align: center; background-color: #247774b9; color: white;">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+    </div>
+  </div>
+  <br>
+  <h1>Meet The Authors</h1>
+  <br>
+  <p class="p1">Lorem ipsum dolor sit amet consectetur</p>
+  <br>
+  <div class="row" style="justify-content: space-evenly;text-align: center;"> 
+    <div class="card" style="width: 18rem;">
+       <img src="lab/img/person1.jpg" class="card-img-top rounded-circle" alt="...">
+       <div class="card-body">
+            <h5 class="card-title">Susane William</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+       </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <img src="lab/img/person2.jpg" class="card-img-top rounded-circle" alt="...">
+        <div class="card-body">
+             <h5 class="card-title">Grace Smith</h5>
+             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+             <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+     </div>
+     <div class="card" style="width: 18rem;">
+        <img src="lab/img/person3.jpg" class="card-img-top rounded-circle" alt="...">
+        <div class="card-body">
+             <h5 class="card-title">John Doe</h5>
+             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+             <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+     </div>
+     <div class="card" style="width: 18rem;">
+        <img src="lab/img/person4.jpg" class="card-img-top rounded-circle" alt="...">
+        <div class="card-body">
+             <h5 class="card-title">Kevin Swason</h5>
+             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+             <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+     </div>
+  </div>
+  <br>
+  <br>
+<div class="row">
+  <div class="container" style="display: flex;flex-direction: row;justify-content: space-evenly;">
+    <form class="w-50" style="margin-left: 150px;">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">UserName</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        
+        <br>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <br>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+        </div>
+        <br>
+        <button type="button" class="btn btn-primary btn-lg" style="text-align: center;">Submit</button>
+
+    </form>
+    <img src="lab/img/mlogo.png" width="500px">
+
+  </div>
+
+</div>
+
+</body>
+</html>

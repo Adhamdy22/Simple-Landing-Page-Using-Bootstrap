@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/bootstrap-5.3.3-dist/css/bootstrap.css">
+</head>
+<body>
+    <div class="container">
+        <form>
+            <div class="mb-3">
+                <label class="form-label" for="">User Name</label>
+                <input id="uname"  class="form-control" type="text">
+                <span class="valid-feedback" >Looks Great</span>
+                <span class="invalid-feedback" >Please Enter vaild user name like : Heba_samy</span>
+            </div>
+            <div class="input-group mb-3">
+                <input class="form-control" type="password">
+                <label class="input-group-text" for="">👁</label>
+            </div>
+            <div class="form-floating">
+                <input class="form-control" placeholder="" type="number" name="" id="phone">
+                <label for="phone">Phone Number</label>
+            </div>
+        </form>
+    </div>
+    <script>
+        let useranme = document.getElementById("uname")
+        useranme.addEventListener("keyup",function (event) {
+            if(useranme.value.length >3){
+                // useranme.setAttribute("class" , "is-valid")
+                useranme.classList.add("is-valid")
+                useranme.classList.remove("is-invalid")
+            }
+            else{
+                // useranme.setAttribute("class" , "is-invalid")
+                useranme.classList.add("is-invalid")
+                useranme.classList.remove("is-valid")
+            }
+        })
+    </script>
+</body>
+</html>
